@@ -1,0 +1,7 @@
+OS: linux
+dist: focal
+language: generic
+jobs:
+  include:
+      stage: "sleep 109"
+      script: sleep 10
